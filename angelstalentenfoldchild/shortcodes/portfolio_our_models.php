@@ -457,7 +457,7 @@ if ( !class_exists( 'avia_post_grid_our_models' ) )
 				    $angelstalent_city = get_field('angelstalent_city', $the_id);
                     $angelstalent_dates = get_field('angelstalent_dates', $the_id);				
 				} else if( has_term('available', 'portfolio_entries', $the_id) ){
-				    $custom_overlay = '<a href="'.$link.'" title="'.esc_attr(strip_tags($title)).'" data-rel="grid-1" class="grid-image avia-hover-fx 222" style="height: auto; opacity: 1;"><div class="losange"><div class="los1">'.$custom_img.'</div> </div><span class="angelAvailability angelAvailability_yes">Available<br> Now</span><span class="image-overlay overlay-type-extern" style="left: -5px; top: 0px; overflow: hidden; display: block; height: 301px; width: 383px;"><span class="image-overlay-inside"></span></span></a>';
+				    $custom_overlay = '<a href="'.$link.'" title="'.esc_attr(strip_tags($title)).'" data-rel="grid-1" class="grid-image avia-hover-fx 222" style="height: auto; opacity: 1;"><div class="losange"><div class="los1">'.$custom_img.'</div> </div><span class="angelAvailability angelAvailability_yes">Available<br> Today</span><span class="image-overlay overlay-type-extern" style="left: -5px; top: 0px; overflow: hidden; display: block; height: 301px; width: 383px;"><span class="image-overlay-inside"></span></span></a>';
 				    $angelstalent_city = '';
                     $angelstalent_dates = '';
 				} else {
